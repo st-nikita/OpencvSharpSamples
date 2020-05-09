@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1082
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallSamples", "SmallSamples\SmallSamples.csproj", "{60DEAD1F-94D1-4A7D-9103-D9646F8CA7CF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarpHelpers", "WarpHelpers\WarpHelpers.csproj", "{D270D44E-9D98-4460-8602-157E76B35999}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceAveraging", "FaceAveraging\FaceAveraging.csproj", "{A14BDA27-7A41-4772-A21E-60E3C49EB849}"
@@ -17,14 +15,6 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{60DEAD1F-94D1-4A7D-9103-D9646F8CA7CF}.Debug|Any CPU.ActiveCfg = Debug|x64
-		{60DEAD1F-94D1-4A7D-9103-D9646F8CA7CF}.Debug|Any CPU.Build.0 = Debug|x64
-		{60DEAD1F-94D1-4A7D-9103-D9646F8CA7CF}.Debug|x64.ActiveCfg = Debug|x64
-		{60DEAD1F-94D1-4A7D-9103-D9646F8CA7CF}.Debug|x64.Build.0 = Debug|x64
-		{60DEAD1F-94D1-4A7D-9103-D9646F8CA7CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{60DEAD1F-94D1-4A7D-9103-D9646F8CA7CF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{60DEAD1F-94D1-4A7D-9103-D9646F8CA7CF}.Release|x64.ActiveCfg = Release|Any CPU
-		{60DEAD1F-94D1-4A7D-9103-D9646F8CA7CF}.Release|x64.Build.0 = Release|Any CPU
 		{D270D44E-9D98-4460-8602-157E76B35999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D270D44E-9D98-4460-8602-157E76B35999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D270D44E-9D98-4460-8602-157E76B35999}.Debug|x64.ActiveCfg = Debug|Any CPU
