@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarpHelpers", "WarpHelpers\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceAveraging", "FaceAveraging\FaceAveraging.csproj", "{A14BDA27-7A41-4772-A21E-60E3C49EB849}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZTests", "ZTests\ZTests.csproj", "{C26BC016-402D-490F-9AD9-AA748C52FADB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,14 @@ Global
 		{A14BDA27-7A41-4772-A21E-60E3C49EB849}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A14BDA27-7A41-4772-A21E-60E3C49EB849}.Release|x64.ActiveCfg = Release|Any CPU
 		{A14BDA27-7A41-4772-A21E-60E3C49EB849}.Release|x64.Build.0 = Release|Any CPU
+		{C26BC016-402D-490F-9AD9-AA748C52FADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C26BC016-402D-490F-9AD9-AA748C52FADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C26BC016-402D-490F-9AD9-AA748C52FADB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C26BC016-402D-490F-9AD9-AA748C52FADB}.Debug|x64.Build.0 = Debug|Any CPU
+		{C26BC016-402D-490F-9AD9-AA748C52FADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C26BC016-402D-490F-9AD9-AA748C52FADB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C26BC016-402D-490F-9AD9-AA748C52FADB}.Release|x64.ActiveCfg = Release|Any CPU
+		{C26BC016-402D-490F-9AD9-AA748C52FADB}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
