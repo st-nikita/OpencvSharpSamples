@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1082
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarpHelpers", "WarpHelpers\WarpHelpers.csproj", "{D270D44E-9D98-4460-8602-157E76B35999}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarpHelpers", "WarpHelpers\WarpHelpers.csproj", "{D270D44E-9D98-4460-8602-157E76B35999}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceAveraging", "FaceAveraging\FaceAveraging.csproj", "{A14BDA27-7A41-4772-A21E-60E3C49EB849}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceAveraging", "FaceAveraging\FaceAveraging.csproj", "{A14BDA27-7A41-4772-A21E-60E3C49EB849}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZTests", "ZTests\ZTests.csproj", "{C26BC016-402D-490F-9AD9-AA748C52FADB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZTests", "ZTests\ZTests.csproj", "{C26BC016-402D-490F-9AD9-AA748C52FADB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FaceSwap", "FaceSwap\FaceSwap.csproj", "{66733298-FC88-467E-BFFF-CB426BBFE9F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,14 @@ Global
 		{C26BC016-402D-490F-9AD9-AA748C52FADB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C26BC016-402D-490F-9AD9-AA748C52FADB}.Release|x64.ActiveCfg = Release|Any CPU
 		{C26BC016-402D-490F-9AD9-AA748C52FADB}.Release|x64.Build.0 = Release|Any CPU
+		{66733298-FC88-467E-BFFF-CB426BBFE9F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66733298-FC88-467E-BFFF-CB426BBFE9F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66733298-FC88-467E-BFFF-CB426BBFE9F5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{66733298-FC88-467E-BFFF-CB426BBFE9F5}.Debug|x64.Build.0 = Debug|Any CPU
+		{66733298-FC88-467E-BFFF-CB426BBFE9F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66733298-FC88-467E-BFFF-CB426BBFE9F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66733298-FC88-467E-BFFF-CB426BBFE9F5}.Release|x64.ActiveCfg = Release|Any CPU
+		{66733298-FC88-467E-BFFF-CB426BBFE9F5}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
