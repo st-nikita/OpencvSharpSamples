@@ -17,7 +17,7 @@ namespace FaceSwap
             {
                 Console.WriteLine("Face detection starting..");
                 var sourceFaceRects = hc.DetectMultiScale(sourceMat);
-                if (sourceFaceRects == null)
+                if (sourceFaceRects == null || sourceFaceRects.Length == 0)
                 {
                     Console.WriteLine($"Source image: No faces detected.");
                     return;
@@ -25,7 +25,7 @@ namespace FaceSwap
                 Console.WriteLine($"Source image: detected {sourceFaceRects.Length} faces.");
 
                 var destFaceRects = hc.DetectMultiScale(destinationMat);
-                if (destFaceRects == null)
+                if (destFaceRects == null || destFaceRects.Length == 0)
                 {
                     Console.WriteLine($"Destination image: No faces detected.");
                     return;
